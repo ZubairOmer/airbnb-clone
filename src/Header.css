@@ -12,15 +12,7 @@
 .header__icon {
   object-fit: contain;
   height: 100px;
-  margin-left: 20px;
-}
-
-.header-center > input {
-  border: none;
-  width: 250px;
-  padding: 10px;
-  outline: 0;
-  font-size: 19px;
+  margin-left: 30px;
 }
 
 .header-center {
@@ -35,10 +27,17 @@
   border-radius: 999px;
 }
 
+.header-center > input {
+  border: none;
+  width: 250px;
+  padding: 10px;
+  outline: 0;
+  font-size: 19px;
+}
 .header-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 15vw;
-  margin-right: 80px;
+  margin-right: 50px;
 }
