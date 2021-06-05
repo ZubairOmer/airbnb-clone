@@ -1,4 +1,5 @@
 .home__section {
-    display: flex;
-    padding: 30px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 30px;
+}
