@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 Watch the live demo of the app in the link bellow
-https://airbnb-clone-22fa6.web.app 
+https://airbnb-clone-22fa6.web.app
 
 
 ## Available Scripts
