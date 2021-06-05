@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import './Footer.css'
 
 function Footer() {
     return (
         <div className='footer'>
-            <p>@ 2021 Airbnb clone developed by Zubair Omer</p>
+            <p>© 2020 Airbnb clone! No rights reserved - this is a demo!</p>
+            <p>Privacy · Terms · Sitemap · Company Details</p>
         </div>
     )
 }

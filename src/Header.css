@@ -1,25 +1,24 @@
 .header {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 100;
+  width: 100%;
 }
 
 .header__icon {
   object-fit: contain;
   height: 100px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
-.header-center {
+.header__center {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex: 1;
+  align-items: center;
   max-width: fit-content;
   padding: 10px;
   height: 30px;
@@ -27,17 +26,17 @@
   border-radius: 999px;
 }
 
-.header-center > input {
+.header__center > input {
   border: none;
-  width: 270px;
   padding: 10px;
-  outline: 0;
-  font-size: 19px;
+  outline-width: 0;
+  /* width: 250px; */
 }
-.header-right {
+
+.header__right {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 15vw;
-  margin-right: 50px;
+  margin-right: 80px;
 }

@@ -1,21 +1,33 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 import Home from './Home'
 import Header from './Header'
 import Footer from './Footer'
 import SearchPage from './SearchPage'
-import { Switch, Route } from 'react-router-dom'
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className='app'>
-      <Header />
-      <Switch>
-        <Route exact path='/search' component={SearchPage} />
-        <Route exact path='/' component={Home} />
-      </Switch>
-      <Footer />
+
+    // BEM
+    <div className="app">
+      <Router>
+        <Header />
+        
+        <Switch>
+          <Route path="/search">
+            <SearchPage />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        
+        <Footer />
+      </ Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
